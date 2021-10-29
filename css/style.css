@@ -1,6 +1,7 @@
 body {
     background-color: cadetblue;
- }
+    
+}
 .container h1 {
     align-content: center;
     font-weight: 900;
@@ -50,14 +51,20 @@ body {
 
 }
 
-@media screen and (max-width: 640px) {
-    h1, p {
+@media screen and (max-width: 680px) {
+    h1 {
         font: 15px;
+        text-align: center;
     }
 
     .flex-box-rps, #flex-box-rps-div {
         width: 100%;
-        height:100%
         margin: auto;
+    }
+    #rock, #paper, #scissor {
+        width: 50%;
+        min-width: auto;
+        height: auto;
+
     }
 }
