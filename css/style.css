@@ -1,7 +1,6 @@
 body {
     background-color: cadetblue;
-    overflow: hidden;
-}
+ }
 .container h1 {
     align-content: center;
     font-weight: 900;
@@ -52,7 +51,7 @@ body {
 }
 
 @media screen and (max-width: 640px) {
-    p {
+    h1, p {
         font: 15px;
     }
 
